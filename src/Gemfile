@@ -63,7 +63,7 @@ group :development, :test do
 
   # for root level specs
   gem 'nats-pure', '~>0.6.2'
-  gem 'openssl'
+  gem 'openssl', '>= 3.2.0'
   gem 'rest-client'
 
   gem 'blue-shell'
