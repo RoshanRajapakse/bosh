@@ -43,10 +43,10 @@ group :development, :test do
 
   gem 'fakefs'
   gem 'parallel_tests', '~> 2.0'
-  gem 'rack-test', '>= 0.6.3'
-  gem 'sinatra', '>= 2.2.0'
-  gem 'sinatra-contrib', '>= 2.2.0'
-  gem 'webmock'
+  gem 'rack-test', '>= 2.0.0'
+  gem 'sinatra', '>= 2.2.4'
+  gem 'sinatra-contrib', '>= 2.2.4'
+  gem 'webmock', '>= 3.14.0'
 
   gem 'pry-byebug'
   gem 'pry-remote'
@@ -59,7 +59,7 @@ group :development, :test do
 
   # for director
   gem 'machinist', '~>1.0'
-  gem 'factory_bot', '~> 6.2'
+  gem 'factory_bot', '~> 6.2', '>= 6.2.1'
 
   # for root level specs
   gem 'nats-pure', '~>0.6.2'
